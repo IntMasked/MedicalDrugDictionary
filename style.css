@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.body {
+    background-color: #F5F5DC;
+}
+
+
+/*BARRA BAJA - TITULO*/
+#titulo::after {
+    position: relative;
+    right: -5px;
+}
+
+#titulo::after {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+
+
+
+
+.head {
+    .cursor::after {
+        content: "|";
+        animation: blink 1s infinite;
+    }
+    @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+    }
+}
+
+.navbar {
+    text-align: center;
+    display: block;
+    background-size: 20px 80px 20px 20px;
+    background-color: grey;
+    opacity: 0.8;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.navbar a.active {
+    padding: 10px 10px 10px;
+    background-color: #363738;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    font-size: 17px;
+}
+
+.navbar input[type=text] {
+    padding: 25px;
+    margin: 15px 25px 10px -45px;
+    margin-top: 5px;
+    font-size: 17px;
+    border-radius: 30px 30px 30px 30px;
+    width: 200px;
+    border: 1px solid #ccc;
+  }
